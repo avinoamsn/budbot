@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Budbot</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An SMS food delivery service giving gifts of cannabis.">
+    <meta name="author" content="">
+    <link href="index.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato|Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@budbot_co">
+    <meta name="twitter:title" content="Budbot">
+    <meta name="twitter:description" content="An SMS based delivery service currently located in Washington DC.">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:image:width" content="900">
+    <meta name="twitter:image:height" content="900">
+</head>
+
+<body> 
+    
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+    
+    
+    <div class="menu">
+        <div class="web">
+            
+            <div id="img-container"><a href="index.html"><img src="Bot.svg" id="logo-img"></a></div> 
+            
+        <section>
+            <form id="gform" autocomplete="off" method="POST"
+            action="https://script.google.com/macros/s/AKfycbwtRFkeiJmafn3MY-zLrBXwcX1cSZ6CZx5ZZGUJJaDPaxu3--fI/exec">
+                
+            <div class="title">An SMS food delivery service giving gifts of cannabis</div>
+            <div class="descirption"><p>Budbot will be operating soon in Washington, DC thanks to Initative 71.<br> We sell favorable foods and drinks. Cannabis is given as a gift.</p></div>
+        
+            <fieldset class="first">
+                <label for="name"></label>
+                <input id="name" name="name" required placeholder="Full Name"/>
+            </fieldset>
+
+            <fieldset class="second">
+                <label for="email"></label>
+                <input id="email" name="email" type="email" value=""
+                required placeholder="Email Address"/>
+            </fieldset>
+
+            <fieldset class="third">
+                <label for="number"></label>
+                <input id="number" name="number" required placeholder="Phone Number"/>
+            </fieldset>
+
+            <button class="button">REQUEST AN INVITE</button>
+                
+            <div class="age">
+                <h5>(To use this service you must be 21 or over)</h5>
+            </div>
+            </form>      
+      </section>
+            
+      </div>
+    </div>
+    
+    <div id="footer"> &#169; Budbot 2016 &#183; <a href="mailto:hi@budbot.co?Subject=Hi" class="email" target="_top">Made by People</a></div> 
+    
+     <!-- Customise the Thankyou Mes`sage People See when they submit the form: -->
+    <div style="display:none;" id="thankyou_message">
+      <h2>We will contact you soon, in the meantime follow <a href="https://twitter.com/budbot_co" class="twitter" target="_blank">@budbot_co</a>.</h2>
+    </div>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <!-- <script data-cfasync="false" type="text/javascript"
+    src="/form-submission-handler.js"></script> -->
+    <!-- END -->
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77574670-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+    
+</body>
+</html>
